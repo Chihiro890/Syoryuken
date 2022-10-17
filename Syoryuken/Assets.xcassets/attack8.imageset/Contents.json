@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "attack8.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "attack8.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
