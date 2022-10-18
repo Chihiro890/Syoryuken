@@ -16,7 +16,11 @@ class ViewController: UIViewController {
         syoryuken.image = UIImage(named: "attack1")
     }
     
+    
+    
+    
     @IBAction func button(_ sender: Any) {
+        
         syoryuken.animationImages =
         [UIImage(named:"attack1"),
          UIImage(named:"attack2"),
@@ -38,8 +42,12 @@ class ViewController: UIViewController {
          UIImage(named:"attack18"),
          UIImage(named:"attack19"),
          UIImage(named:"attack20")!]as? [UIImage] //使用する画像を配列で用意する
-        syoryuken.animationDuration =  1  //画像のコマ送りの時間を設定
+        syoryuken.animationDuration =  1.5  //画像のコマ送りの時間を設定
+        syoryuken.animationRepeatCount = 1
         syoryuken.startAnimating()
+        
+
+      
     }
     
 }
