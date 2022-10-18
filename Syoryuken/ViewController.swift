@@ -43,7 +43,7 @@ class ViewController: UIViewController {
          UIImage(named:"attack19"),
          UIImage(named:"attack20")!]as? [UIImage] //使用する画像を配列で用意する
         syoryuken.animationDuration =  1.5  //画像のコマ送りの時間を設定
-        syoryuken.animationRepeatCount = 1
+        syoryuken.animationRepeatCount = 1  //１回のみ実行。
         syoryuken.startAnimating()
         
 
